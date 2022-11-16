@@ -1,0 +1,33 @@
+.rect {
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    animation: radiusAnime 5s forwards infinite;
+}
+
+@keyframes radiusAnime {
+    0% {
+        border-radius: 0;
+        background-color: red;
+        transform: rotate(0);
+        transform: translateX(0);
+        
+       
+    }
+    50% {
+        border-radius: 100%;
+        background-color: green;
+        transform: rotate(360deg);
+        transform: translateX(1000px);
+        
+    }
+
+    100% {
+        border-radius: 0;
+        background-color: red;
+        transform: rotate(0);
+        transform: translateX(0);
+       
+    }
+    
+}
